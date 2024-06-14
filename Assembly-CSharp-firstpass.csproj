@@ -1,0 +1,1437 @@
+﻿<Project ToolsVersion="Current">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>Temp\obj\$(Configuration)\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+  </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Include="Unity" />
+  </ItemGroup>
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <LangVersion>9.0</LangVersion>
+    <Configurations>Debug;Release</Configurations>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <RootNamespace></RootNamespace>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2021_3_16;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStandardLibraries>true</NoStandardLibraries>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+  <PropertyGroup>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2021.3.16f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Users\16174\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\UploadPartResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\RestoreObjectRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\InventoryConfiguration.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetLiveChannelStatResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\ListObjectsResponseDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetLiveChannelInfoCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\Tag.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketEncryptionCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\ServiceException.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Enums\RequestPayer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketVersioningCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ObjectIdentifier.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\OssObject.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\LiveChannelHistory.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SelectObjectRequestDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\DeleteObjectResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Communication\RetryableServiceClient.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\CreateSelectObjectMetaResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\RequestPaymentConfiguration.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SetBucketTaggingRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\OssException.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\PutObjectRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\AbortBucketWormCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\CopyObjectRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\InitiateBucketWormResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\InitiateBucketWormResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Internal\StreamTransferTracker.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\BucketStat.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SetBucketWebsiteRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\AppendObjectRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteObjectVersionsCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketLifecycleDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\IDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketCorsCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketInventoryConfigurationCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\RequestParameters.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetBucketPolicyCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\ListPartsResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Communication\netcore\ServiceClientNewImpl.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Enums\SelectObjectType.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\LiveChannelConfiguration.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\CallbackHeaderBuilder.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\RequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\CompleteMultipartUploadRequestModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Handlers\ErrorResponseHandler.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketPolicyCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetBucketWebsiteCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetSymlinkRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\ListMultipartUploadsResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Enums\StorageClass.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Internal\WrapperStream.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\CreateLiveChannelResultModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\ListBucketResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\XmlStreamDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetVodPlaylistRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketRefererCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketLocationCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\PolicyConditions.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\LiveRecord.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetLiveChannelHistoryCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetBucketTaggingRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Authentication\DefaultCredentials.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ListMultipartUploadsRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\IGrantee.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetObjectTaggingCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\CreateSymlinkResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetObjectCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\OssErrorCode.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\SetBucketWebsiteRequestModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\RefererConfiguration.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\ListBucketsCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Authentication\IRequestSigner.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ObjectVersionSummary.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\UploadPartRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetBucketInventoryConfigurationCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GeneratePresignedUriRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetBucketRequestPaymentRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketAclCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\DeleteObjectVersionsResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Communication\ServiceClient.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Enums\CannedAccessControlList.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteBucketPolicyCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketRequestPaymentCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\UploadPartCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\PutObjectResponseDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ObjectListing.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\CompleteMultipartUploadRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\InitiateMultipartUploadResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\Tagging.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\LifecycleRule.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\CompleteMultipartUploadRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SetBucketStorageCapacityRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteBucketEncryptionCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\OssHeaders.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\ListBucketInventoryConfigurationResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ListLiveChannelResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\MultipartUploadListing.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Internal\HashingWrapper.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetSymlinkCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetBucketStorageCapacityCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketWormResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Internal\HashStream.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetBucketInventoryConfigurationRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketLoggingCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Communication\IServiceClient.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketStorageCapacityCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\OssObjectSummary.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\ListLiveChannelResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\Part.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Handlers\Crc64CheckHandler.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketWormCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ResponseHeaderOverrides.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SelectObjectMetaRequestDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\ResumableUploadManager.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SetBucketEncryptionRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetBucketStorageCapacityResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ObjectMetadata.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\ListBucketsResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteObjectCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\InitiateMultipartResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\ClientException.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetObjectMetadataResponseDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ListBucketsResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\AppendObjectResponseDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ListObjectsRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Handlers\IResponseHandler.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\RestoreObjectResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\ListMultipartUploadsCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\CompleteBucketWormRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetBucketEncryptionRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketInventoryConfigurationResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SelectObjectRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetBucketLoggingRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteBucketLifecycleCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\StringValueAttribute.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\ProcessObjectResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\CopyObjectResultModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\DeleteLiveChannelRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\PostVodPlaylistCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\ResponseDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\CreateBucketRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GenerateRtmpPresignedUriRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketEncryptionResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\RestoreObjectRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetObjectRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\EnumUtils.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ProcessObjectRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\ExtendBucketWormCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\CreateSelectObjectMetaRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Internal\StreamReadTracker.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\ExecutionContextBuilder.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetObjectAclCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\ErrorResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Properties\Resources.Designer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetBucketCorsCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\ListInventoryConfigurationModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetBucketLifecycleRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SimpleResponseDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Communication\ServiceRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Internal\Crc64HashAlgorithm.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\BucketWebsiteResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Enums\SignHttpMethod.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\OssCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\AbortMultipartUploadRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\OssClient.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\ListObjectVersionsCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetLiveChannelStatusRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\DeleteObjectsResultModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetLiveChannelHistoryResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\RestoreObjectResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\BucketStorageCapacityModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\UploadPartResponseDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\AppendObjectCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SerializerFactory.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\ListObjectVersionsResponseDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketInfoCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\CreateSelectObjectMetaCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetSymlinkResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SetBucketRequestPaymentRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\VersioningConfiguration.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SetObjectTaggingRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteBucketInventoryConfigurationCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\RequestSerializationException.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\CreateSymlinkCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\BucketWorm.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetBucketEncryptionCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\DeleteObjectRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ListLiveChannelRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetBucketRequestPaymentResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Authentication\DefaultCredentialsProvider.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\IOss.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteBucketLoggingCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Enums\DataRedundancyType.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\AccessControlList.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\AsyncResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\CompleteMultipartUploadResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketWebSiteResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ListBucketInventoryConfigurationResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\ExceptionFactory.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetBucketTaggingCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\CopyObjectResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\ISerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\BucketLocationResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ProcessObjectResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\BucketLoggingResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetBucketLoggingCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Communication\HttpMethod.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ListBucketInventoryConfigurationRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Communication\netcore\StreamWeakReferece.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetLiveChannelInfoRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\DeleteObjectsRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Enums\InventoryType.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Communication\ExecutionContext.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteLiveChannelCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ObjectVersionList.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetBucketAclCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ListObjectVersionsRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Enums\TierType.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\MultipartUpload.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetVodPlaylistResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\DeserializerFactory.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketVersioningResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteBucketWebsiteCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Internal\EventStream.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketTaggingResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\PartListing.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\DeletedObjectSummary.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\OssSymlink.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetBucketPolicyRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketTaggingCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\OssUtils.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Handlers\CallbackResponseHandler.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetBucketRequestPaymentCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SetBucketLifecycleRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetObjectTaggingRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\InitiateMultipartUploadCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\ListObjectsCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetLiveChannelInfoResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ExtendBucketWormRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\PostVodPlaylistRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Handlers\MD5DigestCheckHandler.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\AccessControlPolicy.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\InitiateBucketWormCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetBucketTaggingResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ResumableContext.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\Bucket.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\CreateSymlinkRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\ServiceClientFactory.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Authentication\ICredentials.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketStorageCapacityResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\DeleteBucketTaggingRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\Crc32.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\SetBucketLoggingRequestModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\ListMultipartUploadsResponseDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetObjectAclRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\CreateLiveChannelResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\InventoryConfigurationModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\GenericResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetObjectTaggingResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetObjectAclCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Communication\ServiceClientImpl.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Enums\Protocol.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetObjectAclRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SetBucketCorsRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketStatDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetLiveChannelStatCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\XmlStreamSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SelectObjectCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\Crc64.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetLiveChannelInfoResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SelectObjectCsvMetaRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Handlers\ResponseHandler.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\StreamUploadProgressArgs.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\DeleteObjectsRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteBucketCorsCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\CORSRule.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\LifecycleConfiguration.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\CompleteMultipartUploadResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\SelectObjectRequestModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\BucketMetadata.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\CopyObjectCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\HttpHeaders.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketRequestPaymentResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\LiveChannel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\ClientConfiguration.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetAclResponseDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\ThirdParty\MD5Core.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\Owner.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Communication\ServiceMessage.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketMetadataCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\AbortMultipartUploadCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\DeleteObjectVersionsRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\DeleteObjectTaggingRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetLiveChannelStatResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\CompleteBucketWormCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteObjectTaggingCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\CreateSelectObjectMetaRequestModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetBucketRefererRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Internal\IHashingWrapper.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\CreateBucketCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Internal\PartialWrapperStream.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetObjectMetadataCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketLoggingResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetBucketRefererCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetBucketInventoryConfigurationRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\CopyObjectResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetLiveChannelHistoryRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\InitiateBucketWormRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetBucketLifecycleCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\DeleteBucketInventoryConfigurationRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Authentication\ICredentialsProvider.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Handlers\CompleteMultipartUploadCrc64Handler.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\ResponseDeserializationException.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteBucketCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\CreateLiveChannelCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\CreateBucketRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketStatCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketMetadataResponseDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetBucketCorsRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\CreateSymlinkResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\InitiateMultipartUploadRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\ExtendBucketWormRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\ServerSideEncryptionRule.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\ListLiveChannelResultModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\BucketEncryptionResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetLiveChannelStatusCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SetBucketLoggingRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\DeleteObjectsResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\ResumableDownloadManager.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\CreateLiveChannelRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketWebsiteCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetVodPlaylistResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetBucketAclRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\StreamResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\SetBucketVersioningCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetBucketVersioningRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetCorsResponseDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\DeleteObjectVersionsResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\UploadPartCopyResponseDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\PutObjectResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\InitiateMultipartUploadResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetLiveChannelStatRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\DownloadObjectRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\PartEtag.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Authentication\ServiceSignature.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\InitiateBucketWormRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\CompleteMultipartUploadCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SetBucketInventoryConfigurationRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\RestoreObjectRequestModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteBucketTaggingCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ListPartsRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketPolicyDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetBucketWormResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetBucketLifecycleCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\PutObjectCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetObjectMetadataRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Enums\Permission.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\RestoreObjectCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\UploadPartCopyRequestModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\SetBucketCorsRequestModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetVodPlaylistCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\SignUtils.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\LiveChannelStat.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\DeleteObjectResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\DeleteObjectsRequestModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SelectObjectJsonMetaRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetBucketInventoryConfigurationResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GroupGrantee.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetBucketWebsiteRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SetBucketRefererRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\ListBucketsRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketLocationResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetLiveChannelHistoryResultDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\ProcessObjectCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\CreateLiveChannelRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\DeleteMarkerSummary.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetBucketVersioningResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Enums\BucketWormState.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\BucketInfo.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetBucketPolicyResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\UploadObjectRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\SetBucketVersioningRequestSerializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\ListLiveChannelCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\ListPartsResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\HeadObjectCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\DateUtils.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\OssRequestSigner.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\AppendObjectResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\ListPartsCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\ListVersionsResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\UploadPartCopyRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Enums\VersioningStatus.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SetBucketStorageCapacityRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\UploadPartCopyCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\CreateLiveChannelResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\Grant.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\OssResources.Designer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\ListAllMyBucketsResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\GetObjectTaggingCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetObjectTaggingResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetBucketInfoDeserializer.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\GetObjectTaggingRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\DeleteObjectsResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\HttpUtils.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\UploadPartCopyResult.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\ThirdParty\MD5Managed.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\CompleteMultipartUploadResultModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\DeleteObjectsCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Authentication\HmacSHA1Signature.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\DeleteObjectVersionsRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SelectObjectRequest.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Commands\ListBucketInventoryConfigurationCommand.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Util\IOUtils.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Domain\SelectObjectStream.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Model\CreateBucketRequestModel.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Common\Communication\ServiceResponse.cs" />
+    <Compile Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Transform\GetObjectResponseDeserializer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Plugins\aliyun-oss-csharp-sdk-2.13.0\sdk\Resources\MimeData.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PackageManagerUIModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIServiceModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>D:\ENVIRONMENT\Unity Editor\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.HotfixView.Codes.csproj" />
+    <ProjectReference Include="Unity.ModelView.Codes.csproj" />
+  </ItemGroup>
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Remove="LaunchProfiles" />
+    <ProjectCapability Remove="SharedProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
+    <ProjectCapability Remove="ProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerProjects" />
+    <ProjectCapability Remove="COMReferences" />
+    <ProjectCapability Remove="ReferenceManagerCOM" />
+    <ProjectCapability Remove="AssemblyReferences" />
+    <ProjectCapability Remove="ReferenceManagerAssemblies" />
+  </ItemGroup>
+</Project>
